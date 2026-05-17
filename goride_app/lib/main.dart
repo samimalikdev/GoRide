@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:goride_app/features/auth/presentation/bloc/auth_event.dart';
+import 'package:goride_app/features/auth/presentation/bloc/auth_state.dart';
 import 'package:goride_app/features/auth/presentation/pages/mfa_page.dart';
 import 'package:goride_app/features/auth/presentation/pages/mfa_setup_page.dart';
 import 'package:goride_app/features/wallet/presentation/bloc/wallet_bloc.dart';
@@ -14,8 +16,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'core/services/notification_service.dart';
 
 import 'firebase_options.dart';
-import 'features/auth/presentation/bloc/auth_state.dart';
-import 'features/auth/presentation/bloc/auth_event.dart';
 import 'features/explore/presentation/bloc/explore_bloc.dart';
 import 'features/splash/presentation/pages/splash_page.dart';
 import 'features/home/presentation/pages/home_page.dart';
