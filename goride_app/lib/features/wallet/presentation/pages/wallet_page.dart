@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:goride_app/features/auth/presentation/bloc/auth_bloc.dart';
+import 'package:goride_app/features/auth/presentation/bloc/auth_state.dart';
 import '../bloc/wallet_bloc.dart';
 import '../bloc/wallet_event.dart';
 import '../bloc/wallet_state.dart';
-import 'package:goride_app/features/auth/presentation/bloc/auth_bloc.dart';
-import 'package:goride_app/features/auth/presentation/bloc/auth_state.dart';
 
 class WalletPage extends StatefulWidget {
   const WalletPage({super.key});

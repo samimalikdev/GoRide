@@ -1,11 +1,11 @@
 import 'package:get_it/get_it.dart';
+import 'package:goride_app/features/auth/presentation/bloc/auth_bloc.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'core/services/socket_service.dart';
 import 'core/services/api_service.dart';
 import 'core/services/notification_service.dart';
 import 'features/splash/presentation/bloc/splash_bloc.dart';
-import 'features/auth/presentation/bloc/auth_bloc.dart';
 import 'features/explore/presentation/bloc/explore_bloc.dart';
 import 'features/wallet/presentation/bloc/wallet_bloc.dart';
 import 'features/explore/presentation/ride_tracking/bloc/ride_tracking_bloc.dart';
