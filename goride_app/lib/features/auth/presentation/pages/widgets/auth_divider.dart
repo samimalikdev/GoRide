@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:goride_app/core/constances/constances.dart';
+import 'package:goride_app/core/constants/constants.dart';
 
 class AuthDivider extends StatelessWidget {
   const AuthDivider({super.key});

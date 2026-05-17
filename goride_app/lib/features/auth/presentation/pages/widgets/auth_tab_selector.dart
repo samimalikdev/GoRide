@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:goride_app/core/constances/app_colors.dart';
+import 'package:goride_app/core/constants/app_colors.dart';
 
 import 'auth_tab_item.dart';
 

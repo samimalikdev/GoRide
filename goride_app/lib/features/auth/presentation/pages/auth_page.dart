@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:goride_app/core/constances/app_colors.dart';
+import 'package:goride_app/core/constants/app_colors.dart';
 import 'widgets/widgets.dart';
 import '../../../home/presentation/pages/home_page.dart';
 import '../bloc/auth_bloc.dart';
