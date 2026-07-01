@@ -92,4 +92,4 @@ CREATE INDEX IF NOT EXISTS rides_user_id_idx ON public.rides (user_id);
 CREATE INDEX IF NOT EXISTS rides_driver_id_idx ON public.rides (driver_id);
 CREATE INDEX IF NOT EXISTS messages_sender_receiver_idx ON public.messages (sender_id, receiver_id);
 
-create extension if not exists postgis;
+CREATE EXTENSION IF NOT EXISTS postgis;
